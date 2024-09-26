@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #343a40;
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 20px;
+}
+
+.sidebar .nav-link {
+    color: white;
+}
+
+.main {
+    padding: 20px;
+}
+
+.timeline {
+    list-style-type: none;
+}
+
+.timeline li {
+    padding: 10px 0;
+}
